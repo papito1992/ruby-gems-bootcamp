@@ -1,1 +1,5 @@
-
+@import 'bootstrap';
+//@import "font-awesome-sprockets"; for some reason makes description into a tiny box...
+//@import "font-awesome"; for some reason makes description into a tiny box... works as intedned without these inports
+// so leaving them out.
+@import './actiontext.scss';
